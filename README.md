@@ -116,18 +116,6 @@ This tool can process audio files of any length. For files longer than 30 second
 2. Processes each chunk separately
 3. Combines the results into a single transcript
 
-This approach allows for efficient processing of longer content while managing memory usage. However, be aware that:
-
-- Longer files will take proportionally more time to process
-- Very long files (>30 minutes) may require significant processing time, especially on CPU
-- For extremely long content, consider splitting the audio file into smaller segments before processing
-
-If you encounter memory issues with very long files, you can try:
-
-1. Using a smaller Whisper model by changing `WHISPER_MODEL` to "openai/whisper-base"
-2. Reducing the `chunk_length_s` parameter in the `transcribe_file` function
-3. Processing the file in separate parts and combining the summaries afterward
-
 ## Sources
 
 - [YouTube Video Summarizer with OpenAI Whisper and GPT](https://github.com/mirabdullahyaser/Summarizing-Youtube-Videos-with-OpenAI-Whisper-and-GPT-3/tree/master)
