@@ -1,5 +1,9 @@
+audio_summary_with_local_LLM.egg-info/
+.ruff_cache/
 # Virtual Env
 .venv
 
 # Local data
 .DS_Store
+tmp
+summary.md

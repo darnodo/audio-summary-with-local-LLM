@@ -1,3 +1,0 @@
-openai-whisper==20231117
-pytube==15.0.0
-ollama==0.1.8
