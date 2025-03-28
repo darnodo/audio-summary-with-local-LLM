@@ -1,6 +1,0 @@
-openai-whisper==20231117
-ollama==0.1.8
-torch==2.5.0.dev20240712
-torchaudio==2.4.0.dev20240712
-torchvision==0.20.0.dev20240712
-transformers==4.42.4
